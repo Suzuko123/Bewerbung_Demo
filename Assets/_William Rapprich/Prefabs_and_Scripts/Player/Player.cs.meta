@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e32976bcb90f2764c93a6288e50b3c23
+timeCreated: 1508946262
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - input: {instanceID: 0}
+  - shotProjectile: {fileID: 1282668234629274, guid: f6d87dc1481e2a04c8e4c61f0503dc68,
+      type: 2}
+  - playerCameraPrefab: {fileID: 1674578713639340, guid: 7e8adcac2c807a34a89fc5567196a8c8,
+      type: 2}
+  - petPrefab: {fileID: 1954405394689168, guid: e172f08163f9f0d4fb1a962b19b6e81d,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
