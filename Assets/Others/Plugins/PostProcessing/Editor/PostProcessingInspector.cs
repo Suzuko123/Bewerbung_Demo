@@ -48,11 +48,11 @@ namespace UnityEditor.PostProcessing
                 var effectType = attr.type;
                 var alwaysEnabled = attr.alwaysEnabled;
 
-                var editorInst = (PostProcessingModelEditor)Activator.CreateInstance(editor);
-                editorInst.alwaysEnabled = alwaysEnabled;
-                editorInst.profile = target as PostProcessingProfile;
-                editorInst.inspector = this;
-                customEditors.Add(effectType, editorInst);
+                // var editorInst = (PostProcessingModelEditor)Activator.CreateInstance(editor);
+                // editorInst.alwaysEnabled = alwaysEnabled;
+                // editorInst.profile = target as PostProcessingProfile;
+                // editorInst.inspector = this;
+                // customEditors.Add(effectType, editorInst);
             }
 
             // ... and corresponding models
