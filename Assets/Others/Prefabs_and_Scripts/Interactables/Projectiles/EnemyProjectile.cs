@@ -25,5 +25,7 @@ public class EnemyProjectile : ProjectileBasics
         {
 			hitable.Hit (new HitInfo (gameObject, damage, direction));
 		}
+
+        Destroy(gameObject);
     }
 }
