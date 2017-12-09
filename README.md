@@ -8,8 +8,11 @@ Bewegung des Charakters ist mit W, A, S und D möglich. Sonst sind keine Aktione
 
 Die von William Rapprich implementierten Funktionen sind folgende (wie aus der Ordnerstruktur ersichtlich):
 - Spielersteuerung
-- ArrowTrap (3 Modi), SpikeTrap und DeathTrap
 - PlayerHealthDislay und EnemyHealthDisplay (mit Culling)
+- ArrowTrap (3 Modi), SpikeTrap und DeathTrap
+- FallingStones + Telegraph Shaders
+- SignalSystem (verschiedene Activators und Activatables)
 - IcyFloorHandler
+- Room
 - HealthPack
 - (IHitable, GameManager und PrefabHolder)
